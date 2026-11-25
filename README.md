@@ -2,7 +2,7 @@
 
 # Bookshop | Account & Password Recovery
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://bookshop-auth-flow-2-mjs.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://bookshop-auth-flow.vercel.app/)
 
 ### A multi-screen sign-in and password-recovery experience.
 
