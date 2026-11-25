@@ -3,7 +3,7 @@ import earth from "../assets/icons/earth.svg";
 import facebook from "../assets/icons/facebook2.svg";
 import instagram from "../assets/icons/instagram.svg";
 import twitter from "../assets/icons/twittwr.svg";
-import youtube from "../assets/icons/YouTube.svg";
+import youtube from "../assets/icons/youtube.svg";
 
 function Footer() {
   return (
