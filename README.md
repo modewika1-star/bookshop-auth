@@ -1,16 +1,61 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔐 Bookshop Account UI
 
-Currently, two official plugins are available:
+### A multi-screen sign-in and password-recovery experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A React frontend exercise focused on common account flows, from login and registration to reset-code entry and password updates.
 
-## React Compiler
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=20232A)](https://react.dev/) [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/) [![React Router](https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+## ✨ Screens and routes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Route | Screen |
+| --- | --- |
+| `/` | Login |
+| `/signup` | Sign up |
+| `/forget-password` | Forgot password |
+| `/reset-code` | Reset code |
+| `/create-password` | Create a new password |
+| `/password-changed` | Password changed confirmation |
+
+## 🧩 What this project practices
+
+- Building separate screens for account-related user journeys.
+- Navigating between screens with React Router.
+- Managing form input with React state.
+- Basic required-field checks and user feedback.
+- Reusing shared hero and footer components.
+
+## 🛠️ Technology
+
+- React 19, JavaScript, Vite
+- React Router DOM
+- Tailwind CSS and Bootstrap
+- Animate.css
+
+## ⚙️ Run locally
+
+~~~bash
+git clone https://github.com/modewika1-star/t15-bookshop.git
+cd t15-bookshop
+npm install
+npm run dev
+~~~
+
+For a production build:
+
+~~~bash
+npm run build
+npm run preview
+~~~
+
+## 🔒 Authentication note
+
+This repository is a frontend account-flow exercise. The inspected login handler uses local form checks and browser alerts. No production authentication backend, email delivery, or real password-reset service is configured in the inspected application code.
+
+---
+
+**Repository:** [modewika1-star/t15-bookshop](https://github.com/modewika1-star/t15-bookshop)
